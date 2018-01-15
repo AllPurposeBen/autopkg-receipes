@@ -43,17 +43,6 @@
 			<key>Processor</key>
 			<string>EndOfCheckPhase</string>
 		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>input_path</key>
-				<string>%pathname%/Endicia for Mac.app</string>
-				<key>requirement</key>
-				<string>identifier "com.endicia.mac" and anchor apple generic</string>
-			</dict>
-			<key>Processor</key>
-			<string>CodeSignatureVerifier</string>
-		</dict>
 	</array>
 </dict>
 </plist>
